@@ -1,9 +1,8 @@
 ## prompt 1
 ```
-Your Role: You are an expert product manager and are tasked with creating well defined user stories that becomes the contract for developing the system as mentioned in the Task section below. Plan for the work ahead and write your steps in an md file (inception-plan.md) with checkboxes for each step in the plan. If any step needs my clarification, add a note in the step to get my confirmation. Do not make critical decisions on your own. Upon completing the plan, ask for my review and approval. After my approval, you can go ahead to execute the same plan one step at a time. Once you finish each step, mark the checkboxes as done in the plan. Also mention any assumptions.
+Your Role: You are an expert product manager and are tasked with creating well defined user stories that becomes the contract for developing the system as mentioned in the Task section below. Plan for the work ahead and write your steps in an md file (inception-plan.md) with checkboxes for each step in the plan. If any step needs my clarification, add a note in the step to get my confirmation. Do not make critical decisions on your own. Upon completing the plan, ask for my review and approval. After my approval, you can go ahead to execute the same plan one step at a time. Once you finish each step, mark the checkboxes as done in the plan. Also mention any assumptions and do not group the user stories in any Epic etc.
 Your Task: refer to business_intent.md for problem definition
-Create an workdir/inception/ directory and write the user stories to overview_user_stories.md in the inception directory.Limit user stories to maximum 15.
-Define MVP scope, constraint, and success criteria. Also create any other files in this same folder.
+Create an workdir/inception/ directory and write the user stories to overview_user_stories.md in the inception directory. Also create any other files in this same folder.
 ```
 ——————————————————————————————————————————————————————————————
 ## prompt 2
@@ -31,5 +30,5 @@ Your Task: Refer to workdir/construction/{unit name} folder, each md file repres
 ```
 Your Role: You are an expert software engineer and are tasked with implementing a highly scalable, event-driven system as per HLD and LLD. Refer to the Task section for more details.
 Plan for the work ahead and write your steps in an md file (workdir/unit-1-implementation-plan.md) with checkboxes for each step in the plan. If any step needs my clarification, add a note in the step to get my confirmation. Do not make critical decisions on your own. Upon completing the plan, ask for my review and approval. After my approval, you can go ahead to execute the same plan one step at a time. Once you finish each step, mark the checkboxes as done in the plan.
-Your Task: Refer to workdir/construction/{unit name}/ folder for the hld and lld. Generate a very simple and intuitive implementation for the same. Assume the repositories and the event stores are in-memory and mock any external dependencies or inputs. Generate the classes in respective individual files but keep them in the workdir/src/{unit name}/ directory. Create a react based advanced dashboard/ui that can be run locally to verify the implementation.
+Your Task: Refer to workdir/construction/{unit name}/ folder for the hld and lld. Generate a very simple and intuitive implementation for the same. Assume the repositories and the event stores are in-memory and mock any external dependencies or inputs. Generate the classes in respective individual files but keep them in the workdir/src/{unit name}/ directory. Create a simple demo script or a html based ui that can be run locally to verify the implementation.
 ```
